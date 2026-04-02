@@ -8,7 +8,7 @@
 
 This project focuses on analyzing stock market data using SQL to extract meaningful financial insights.
 
-It simulates real-world data analyst tasks such as analyzing stock performance, trading activity, price trends, and market behavior.
+It simulates real-world data analyst tasks such as analyzing stock performance, trading activity, price trends, investor behavior, and market trends.
 
 ---
 
@@ -26,9 +26,10 @@ It simulates real-world data analyst tasks such as analyzing stock performance, 
 
 The analysis is based on the following tables:
 
-- 🏢 `companies` → Company details (symbol, name)  
-- 📊 `stock_prices` → Daily stock data (price, volume, date)  
-- 💼 `transactions` → Trading activity (quantity, price)  
+- 🏢 `companies` → Company details such as `company_id`, `name`, `symbol`, and `sector`
+- 👥 `investors` → Investor details such as `investor_id`, `name`, `email`, and `city`
+- 📊 `stock_prices` → Daily stock data such as `price_id`, `company_id`, `date`, `open_price`, `close_price`, and `volume`
+- 💼 `transactions` → Trading activity such as `transaction_id`, `investor_id`, `company_id`, `transaction_date`, `transaction_type`, `quantity`, and `price`
 
 ---
 
@@ -42,7 +43,7 @@ The analysis is based on the following tables:
 
 ## 🔍 Data Exploration
 
-Initial exploration was performed to understand the dataset:
+Initial exploration was performed to understand the dataset structure:
 
 ```sql
 USE assignment;
@@ -50,5 +51,6 @@ USE assignment;
 SHOW TABLES;
 
 SELECT * FROM companies;
+SELECT * FROM investors;
 SELECT * FROM stock_prices;
 SELECT * FROM transactions;
