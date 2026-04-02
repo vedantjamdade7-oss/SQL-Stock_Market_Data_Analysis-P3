@@ -1,7 +1,7 @@
 # 📈 Stock Market Data Analysis (SQL Project)
 
 <p align="center">
-  <img src="./banner.png" width="100%" style="border-radius:10px;">
+  <img src="./banner.png" alt="Stock Market Analysis Banner" width="100%">
 </p>
 
 ---
