@@ -1,6 +1,8 @@
 # 📈 Stock Market Data Analysis (SQL Project)
 
-![Stock Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Stock%20Market%20Analysis&fontSize=40&fontColor=ffffff)
+<p align="center">
+  <img src="./banner.png" width="100%" style="border-radius:10px;">
+</p>
 
 ---
 
