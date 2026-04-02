@@ -1,7 +1,8 @@
 # 📈 Stock Market Data Analysis (SQL Project)
 
 <p align="center">
-  <img src="stock-banner.png" width="100%">
+  <img src="PASTE_![stock_market img](https://github.com/user-attachments/assets/a736be4c-be51-4846-a2c0-f9ee38a4139c)
+LINK_HERE" width="100%">
 </p>
 
 ---
