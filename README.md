@@ -1,5 +1,6 @@
 # 📈 Stock Market Data Analysis (SQL Project)
 
+## Project Preview
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e37ceb5b-2213-40f6-a36d-b006e76ccd96" width="100%">
 </p>
