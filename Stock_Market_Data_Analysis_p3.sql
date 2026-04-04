@@ -1,6 +1,6 @@
-# ASSINGMENT ANSWER-2
+# STOCK MARKET ANALYSIS
 
-use assignment;
+use stock_market_db;
 
 -- 1. Find the total traded volume for each stock symbol.
 
