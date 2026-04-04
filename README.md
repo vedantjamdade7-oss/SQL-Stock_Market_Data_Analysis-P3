@@ -222,12 +222,11 @@ ORDER BY Avg_volume DESC;
 
 17. List the top 10 stock symbols by maximum price and use OFFSET to skip the top 5.
 ```sql
-SELECT symbol, MAX(close_price) as Max_price
-FROM companies c
-JOIN transactions t
-ON c.company_id=t.company_id
-GROUP BY symbol
-ORDER BY Max_price DESC
+SELECT symbol, MAX(sp.close_price) AS max_price 
+FROM stock_prices sp 
+JOIN companies c ON sp.company_id = c.company_id 
+GROUP BY symbol 
+ORDER BY max_price DESC 
 LIMIT 10 OFFSET 5;
 ```
 
