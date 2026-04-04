@@ -116,7 +116,7 @@ FROM stock_prices sp
 JOIN companies c
 ON sp.company_id=c.company_id
 GROUP BY name
-ORDER BY closing_price
+ORDER BY closing_price DESC
 LIMIT 5;
 ```
 
@@ -222,7 +222,7 @@ ORDER BY Avg_volume DESC;
 
 -- 17. List the top 10 stock symbols by maximum price and use OFFSET to skip the top 5.
 ```sql
-SELECT symbol, MAX(price) as Max_price
+SELECT symbol, MAX(close_price) as Max_price
 FROM companies c
 JOIN transactions t
 ON c.company_id=t.company_id
