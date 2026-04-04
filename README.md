@@ -259,4 +259,31 @@ GROUP BY name
 HAVING Avg_volume>(SELECT AVG(volume) FROM stock_prices);
 ```
 
+## 📌 Market Recommendations
+
+Based on the SQL analysis of the dataset:
+
+📈 **High Trading Volume Stocks**  
+- Focus on stocks like **Apple (AAPL)** and **Tesla (TSLA)**  
+- These stocks show very high trading volume (80M–90M range), indicating strong liquidity and active market participation  
+
+💰 **Consistent Growth Stocks**  
+- Invest in **Amazon (AMZN)** and **Tesla (TSLA)**  
+- These stocks show continuous increase in closing prices across multiple days  
+- Example: Amazon rising up to **3200**, Tesla showing steady growth trend  
+
+⚠️ **Low Activity Stocks**  
+- Avoid or be cautious with **JPMorgan (JPM)**, **Pfizer (PFE)**, **Netflix (NFLX)**, and **Ford (F)**  
+- These stocks have no trading records in stock_prices table → indicates low or missing activity  
+
+📊 **High Volatility Stocks**  
+- Stocks like **Amazon (AMZN)** and **Tesla (TSLA)** show noticeable price movement  
+- Suitable for short-term trading strategies due to price fluctuations  
+
+🔍 **Diversification Strategy**  
+- Technology: **Apple (AAPL), Google (GOOGL), Meta (META)**  
+- Automobile: **Tesla (TSLA)**  
+- Finance: **ICICI Bank (ICICIBANK)**  
+
+- Diversifying across sectors reduces risk and improves portfolio stability  
 
