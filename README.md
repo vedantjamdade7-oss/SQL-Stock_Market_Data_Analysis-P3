@@ -57,3 +57,28 @@ SELECT * FROM companies;
 SELECT * FROM investors;
 SELECT * FROM stock_prices;
 SELECT * FROM transactions;
+
+## 📋 Business Questions Solved
+
+The following real-world analytical questions were solved using SQL:
+
+1. Find the total traded volume for each stock symbol.  
+2. Calculate the average closing price for each stock.  
+3. Count the number of trading days for each stock.  
+4. Find the maximum closing price recorded for each stock.  
+5. List the stock symbols having an average traded volume greater than 100000.  
+6. Show the top 5 stocks with the highest average closing price.  
+7. Find the total traded volume for stocks traded on '2024-03-25'.  
+8. Display the stock symbols with minimum closing price less than 200.  
+9. List the average traded volume for each stock, sorted by volume descending.  
+10. Show the top 3 stocks with the most trading records (by count).  
+11. Find the total traded volume for stocks starting with the letter 'A'.  
+12. Calculate the average closing price for each stock and filter those with average price less than 500.  
+13. Find the total number of trading records for each stock and filter stocks having more than 10 records.  
+14. List the top 5 stocks with the lowest average closing prices using OFFSET to skip the first 2.  
+15. Display the stock symbols where total volume traded is between 500000 and 1000000.  
+16. Show the stock symbols with an average volume greater than 50000 and order them by average volume descending.  
+17. List the top 10 stock symbols by maximum price and use OFFSET to skip the top 5.  
+18. Find the average, maximum, and minimum closing prices for each stock symbol.  
+19. Display the count of trading records for stocks where the closing price was above 300.  
+20. Show the stocks whose average traded volume is greater than the overall average traded volume of all stocks.  
