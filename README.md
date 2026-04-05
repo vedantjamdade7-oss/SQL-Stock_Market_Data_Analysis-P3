@@ -15,7 +15,7 @@ It simulates real-world data analyst tasks such as analyzing stock performance, 
 
 ---
 
-## 🎯 Objectives
+## 🎯 Objective
 
 - Analyze trading volume across stocks  
 - Evaluate stock price performance  
