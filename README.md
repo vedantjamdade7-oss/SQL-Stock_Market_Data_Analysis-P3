@@ -35,6 +35,46 @@ The analysis is based on the following tables:
 - 💼 `transactions` → Trading activity such as `transaction_id`, `investor_id`, `company_id`, `transaction_date`, `transaction_type`, `quantity`, and `price`
 
 ---
+## 🗺️ Entity Relationship Diagram (ERD)
+erDiagram
+
+    COMPANIES {
+        INT company_id PK
+        VARCHAR name
+        VARCHAR symbol
+        VARCHAR sector
+    }
+
+    STOCK_PRICES {
+        INT price_id PK
+        INT company_id FK
+        DATE date
+        DECIMAL open_price
+        DECIMAL close_price
+        BIGINT volume
+    }
+
+    INVESTORS {
+        INT investor_id PK
+        VARCHAR name
+        VARCHAR email
+        VARCHAR city
+    }
+
+    TRANSACTIONS {
+        INT transaction_id PK
+        INT investor_id FK
+        INT company_id FK
+        DATE transaction_date
+        ENUM transaction_type
+        INT quantity
+        DECIMAL price
+    }
+
+    COMPANIES ||--o{ STOCK_PRICES : has
+    COMPANIES ||--o{ TRANSACTIONS : involved_in
+    INVESTORS ||--o{ TRANSACTIONS : makes
+---
 
 ## 🛠️ Tools & Technologies
 
