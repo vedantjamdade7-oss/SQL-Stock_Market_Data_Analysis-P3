@@ -37,44 +37,10 @@ The analysis is based on the following tables:
 ---
 
 ## 🗺️ Entity Relationship Diagram (ERD)
-erDiagram
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/54a0ecd4-fa76-41d6-90f6-0709a7632d54" style="width:100%; max-width:1200px;" />
+</p>
 
-    COMPANIES {
-        INT company_id PK
-        VARCHAR name
-        VARCHAR symbol
-        VARCHAR sector
-    }
-
-    STOCK_PRICES {
-        INT price_id PK
-        INT company_id FK
-        DATE date
-        DECIMAL open_price
-        DECIMAL close_price
-        BIGINT volume
-    }
-
-    INVESTORS {
-        INT investor_id PK
-        VARCHAR name
-        VARCHAR email
-        VARCHAR city
-    }
-
-    TRANSACTIONS {
-        INT transaction_id PK
-        INT investor_id FK
-        INT company_id FK
-        DATE transaction_date
-        ENUM transaction_type
-        INT quantity
-        DECIMAL price
-    }
-
-    COMPANIES ||--o{ STOCK_PRICES : has
-    COMPANIES ||--o{ TRANSACTIONS : involved_in
-    INVESTORS ||--o{ TRANSACTIONS : makes
 ---
 
 ## 🛠️ Tools & Technologies
