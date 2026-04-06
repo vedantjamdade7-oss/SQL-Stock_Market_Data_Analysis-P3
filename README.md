@@ -35,6 +35,7 @@ The analysis is based on the following tables:
 - 💼 `transactions` → Trading activity such as `transaction_id`, `investor_id`, `company_id`, `transaction_date`, `transaction_type`, `quantity`, and `price`
 
 ---
+
 ## 🗺️ Entity Relationship Diagram (ERD)
 erDiagram
 
