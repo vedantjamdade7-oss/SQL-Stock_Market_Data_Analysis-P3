@@ -1,4 +1,4 @@
-# 📈 Stock Market Data Analysis )
+# 📈 Stock Market Data Analysis (SQL Project)
 
 ## Project Preview
 <p align="center">
